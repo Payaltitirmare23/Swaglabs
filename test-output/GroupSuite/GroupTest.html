@@ -1,0 +1,198 @@
+<html>
+<head>
+<title>TestNG:  GroupTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>GroupTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jun 20 19:52:04 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>84 seconds (84527 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>smoke </td>
+</tr><tr>
+<td>Excluded groups:</td><td>Retest </td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.Checkout_Step_Two_Test.verifySubTotalLabelTest()'><b>verifySubTotalLabelTest</b><br>Test class: testCases.Checkout_Step_Two_Test<br/>
+<a href="#Output-1366342658" onClick='toggleBox("Output-1366342658", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1366342658" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1366342658">
+The sub Total Label is = Item total: $113.95<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Checkout_Step_Two_Test@7bd7d6d6</td></tr>
+<tr>
+<td title='testCases.LoginPage_Test.verifyURLOfApplication()'><b>verifyURLOfApplication</b><br>Test class: testCases.LoginPage_Test</td>
+<td></td>
+<td>0</td>
+<td>testCases.LoginPage_Test@740fb309</td></tr>
+<tr>
+<td title='testCases.Checkout_Step_Two_Test.verifyCartQtyLabelTest()'><b>verifyCartQtyLabelTest</b><br>Test class: testCases.Checkout_Step_Two_Test<br/>
+<a href="#Output-1453632464" onClick='toggleBox("Output-1453632464", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1453632464" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1453632464">
+The cart quality label  is = QTY<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Checkout_Step_Two_Test@7bd7d6d6</td></tr>
+<tr>
+<td title='testCases.CheckOut_Step_One_Page_Test.inputInformationTest()'><b>inputInformationTest</b><br>Test class: testCases.CheckOut_Step_One_Page_Test<br/>
+<a href="#Output-1196550329" onClick='toggleBox("Output-1196550329", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1196550329" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1196550329">
+Checkout Page 2 URL = https://www.saucedemo.com/checkout-step-two.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.CheckOut_Step_One_Page_Test@4e5ed836</td></tr>
+<tr>
+<td title='testCases.LoginPage_Test.loginToApplication()'><b>loginToApplication</b><br>Test class: testCases.LoginPage_Test</td>
+<td></td>
+<td>0</td>
+<td>testCases.LoginPage_Test@740fb309</td></tr>
+<tr>
+<td title='testCases.Inventory_Page_Test.add6ProductsTest()'><b>add6ProductsTest</b><br>Test class: testCases.Inventory_Page_Test<br/>
+<a href="#Output-2068103096" onClick='toggleBox("Output-2068103096", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2068103096" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2068103096">
+Actual count is= 5<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testCases.Inventory_Page_Test@43f02ef2</td></tr>
+<tr>
+<td title='testCases.CheckOut_Step_One_Page_Test.clickOnCancelBtnTest()'><b>clickOnCancelBtnTest</b><br>Test class: testCases.CheckOut_Step_One_Page_Test<br/>
+<a href="#Output-1706741895" onClick='toggleBox("Output-1706741895", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1706741895" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1706741895">
+After cancel the url is = https://www.saucedemo.com/cart.html<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testCases.CheckOut_Step_One_Page_Test@4e5ed836</td></tr>
+<tr>
+<td title='testCases.Inventory_Page_Test.verifyLinkedInLogoTest()'><b>verifyLinkedInLogoTest</b><br>Test class: testCases.Inventory_Page_Test<br/>
+<a href="#Output-2136893491" onClick='toggleBox("Output-2136893491", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2136893491" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2136893491">
+LinkedIn logo is present = true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Inventory_Page_Test@43f02ef2</td></tr>
+<tr>
+<td title='testCases.Checkout_Step_Two_Test.verifyPaymentInfoLabelTest()'><b>verifyPaymentInfoLabelTest</b><br>Test class: testCases.Checkout_Step_Two_Test<br/>
+<a href="#Output-383852959" onClick='toggleBox("Output-383852959", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-383852959" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-383852959">
+The Payment Information  label  is = Payment Information:<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Checkout_Step_Two_Test@7bd7d6d6</td></tr>
+<tr>
+<td title='testCases.Inventory_Page_Test.verifyTwitterLogoTest()'><b>verifyTwitterLogoTest</b><br>Test class: testCases.Inventory_Page_Test<br/>
+<a href="#Output-629835140" onClick='toggleBox("Output-629835140", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-629835140" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-629835140">
+Twitter Logo is present= true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Inventory_Page_Test@43f02ef2</td></tr>
+<tr>
+<td title='testCases.Inventory_Page_Test.verifyBackPackDescTest()'><b>verifyBackPackDescTest</b><br>Test class: testCases.Inventory_Page_Test<br/>
+<a href="#Output-2079989429" onClick='toggleBox("Output-2079989429", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2079989429" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2079989429">
+The Description is = carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testCases.Inventory_Page_Test@43f02ef2</td></tr>
+</table><p>
+</body>
+</html>
