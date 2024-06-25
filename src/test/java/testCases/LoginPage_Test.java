@@ -45,7 +45,7 @@ public class LoginPage_Test extends TestBase{
 	public void closeBrowser(ITestResult it) throws IOException {
 		if(it.FAILURE==it.getStatus())
 		{
-			Screenshot.cs(it.getName()); //give fail method name
+			Screenshot.cs(it.getName()); //give fail method name and take a ss
 		}		
 		driver.close();
 	}
